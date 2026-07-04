@@ -1,0 +1,22 @@
+# robots.txt for attilano
+# https://www.cojhrhvk.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.cojhrhvk.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Block access to sensitive areas
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*.log$
+
+# Allow app-ads.txt
+Allow: /app-ads.txt
